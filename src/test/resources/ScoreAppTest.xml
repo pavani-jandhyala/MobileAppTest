@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Score App Test Suite">
+    <test name="Score App Tests" >
+        <classes>
+            <class name="ScoreAppTest"/>
+        </classes>
+    </test>
+</suite>
