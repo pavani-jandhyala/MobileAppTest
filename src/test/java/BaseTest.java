@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
     protected AndroidDriver<MobileElement> driver;
 
-    @BeforeSuite
+    @BeforeMethod
     public void setUp() throws MalformedURLException {
         DesiredCapabilities capabilities =new DesiredCapabilities();
         capabilities.setCapability("deviceName", "OnePlus CPH2401 API 33");
@@ -30,7 +30,7 @@ public class BaseTest {
     }
 
     //@After Method
-    @AfterSuite
+    @AfterMethod
     public void tearDown() {
         if (driver != null) {
             driver.quit();

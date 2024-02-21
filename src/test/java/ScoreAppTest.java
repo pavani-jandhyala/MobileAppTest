@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 public class ScoreAppTest extends BaseTest{
 
     @Test(dataProvider = "League", dataProviderClass = TestData.class)
-    public void testFavLeagueData(String league,String team, String subTab,String measure,String leader) {
+    public void testFavLeagueData(String league) {
 
         HomePage homePage = new HomePage(driver);
 
@@ -38,8 +38,6 @@ public class ScoreAppTest extends BaseTest{
 
     }
 
-
-//
     @Test(dataProvider = "Team", dataProviderClass = TestData.class)
     public void testTeamData(String league,String team, String favTeam, String subTab,String measure){
         HomePage homePage = new HomePage(driver);

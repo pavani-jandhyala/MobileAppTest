@@ -6,8 +6,6 @@ public class TestData {
         return new Object[][] {
                 {"NFL"},
                 {"NHL"}
-                //{"NFL","Buffalo Bills", "LEADERS", "Passing Yards", "T. Tagovailoa"},
-//                {"NHL","Boston Bruins","LEADERS","Points","N. Kucherov"}
         };
     }
 
@@ -15,7 +13,7 @@ public class TestData {
     public Object[][] getLeagueTeamData() {
         return new Object[][] {
                 {"NFL","Buffalo Bills", "LEADERS", "Passing Yards", "T. Tagovailoa"},
-//                {"NHL","Boston Bruins","LEADERS","Points","N. Kucherov"}
+                {"NHL","Boston Bruins","LEADERS","Points","N. Kucherov"}
         };
     }
 
